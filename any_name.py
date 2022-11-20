@@ -3,7 +3,7 @@ from o_O import get_arr
 import time
 
 def writer(param_tuple):
-    book = xlsxwriter.Workbook(r"C:\Users\user\Desktop\data.xsls")
+    book = xlsxwriter.Workbook(r"C:\PPP_1\python_tricks-master\scraping\data2.xsls")
     page = book.add_worksheet("товар")
 
     row = 0
